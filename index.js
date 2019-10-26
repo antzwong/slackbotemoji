@@ -2,6 +2,7 @@ const SlackBot = require('slackbots');
 const axios = require('axios');
 
 const bot =  new SlackBot({
+	//INSERT TOKEN HERE BUT DO NOT UPLOAD TO GIT OR ELSE YOU BREAK IT
 	token: '',
 	name: 'emojisrgr8'
 });
